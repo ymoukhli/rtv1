@@ -1,0 +1,49 @@
+#Scene Demo
+#sphere(Pos-Rad-Col)plane(Pos-Nor-Col)cone(Pos-Rot-Rad-Dif-Dir-Col)cylinder(Pos-Rot-Rad-Dir-Col)
+#Please entre int values
+
+scene {
+    camera:
+      Pos: 0,0,-100
+      Trs: 0,0,0
+      Rot: 0,0,0
+    light:
+      Pos: 0,-100,0
+      Int: 30
+}
+
+    cone:
+      Pos: -300,0,900
+      Trs: 0,0,0
+      Rot: 30,1,0
+      Ang: 30
+      Dir: 0,1,0
+      Col: 255,0,0
+    cylinder:
+      Pos: 300,0,1000
+      Trs: 0,0,0
+      Rot: 0,0,0
+      Rad: 200
+      Dir: 0,-1,0
+      Col: 255,255,0
+    sphere:
+      Pos: 0,100,200
+      Trs: 0,0,0
+      Rot: 0,0,0
+      Rad: 100
+      Col: 255,255,255
+    plane:
+      Pos: 0,105,0
+      Trs: 0,0,0
+      Rot: 0,0,0
+      Nor: 0,-1,0
+      Col: 10,20,255
+object {
+    sphere:
+      Pos: 0,0,0
+      Trs: 0,0,0
+      Rot: 0,0,0
+      Rad: 20
+      Col: 0,255,255
+}
+#end

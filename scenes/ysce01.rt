@@ -1,0 +1,24 @@
+scene {
+    camera:
+      Pos: 0,0,-120
+      Trs: 0,0,0
+      Rot: 0,0,0
+    light:
+      Pos: -300,0,0
+      Int: 1000
+}
+
+	plane:
+      Pos: 1000,0,0
+      Trs: 0,0,0
+      Rot: 0,0,0
+      Nor: -1,0,0
+      Col: 10,20,255
+object {
+    sphere:
+      Pos: 0,0,0
+      Trs: 0,0,0
+      Rot: 0,0,0
+      Rad: 50
+      Col: 255,255,255
+}
